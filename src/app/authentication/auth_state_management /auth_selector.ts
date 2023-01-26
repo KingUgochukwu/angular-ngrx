@@ -1,5 +1,5 @@
 import { createSelector } from "@ngrx/store";
-import { FireTracAppState } from "src/app/app-state";
+import { FireTracAppState } from "../../app-state";
 
 export const selectFeature = (state: FireTracAppState) => state.auth;
 
